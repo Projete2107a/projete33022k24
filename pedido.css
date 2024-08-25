@@ -1,0 +1,21 @@
+body{
+    color: white;
+   background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+   
+    text-align: center;
+    color: white;
+    
+}
+h1{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+    color: white;
+}
+
+ 
