@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="pedido.css">
 </head>
 <body>
-    <form action="https://formsubmit.co/projete3302@gmail.com" method="POST">
+    <form action="https://formspree.io/f/pedido" method="POST">
+        <label for="email">projete3302@gmail.com</label>
         <h1>Faça seu pedido</h1>
         <p>
             <h2>
@@ -23,7 +24,7 @@
         <p>
             <h2>
                 <label for="qnt">Quantidade de caixas</label>
-                <input type="number" name="Quantidade" id="qua">
+                <input type="number" name="Quantidade" id="qua" min="1" max="10">
             </h2>
         </p>
         <p>
